@@ -1,0 +1,98 @@
+.main-container {
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 0px;
+}
+.parallax {
+  height: 450px;
+}
+
+.first-photo {
+  background: url('/images/image1.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.second-photo {
+  background: url('/images/image2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.third-photo {
+  background: url('/images/image3.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.message {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.message h3 {
+  font-size: 52px;
+}
+
+.message p, #typedtext {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.front-page {
+  color: white;
+}
+
+.front-page-title {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.section-text {
+  color: #2c2b31;
+}
+
+.section-text {
+  color: #2c2b31;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-member img {
+  width: 300px;
+}
+
+.team-member-info {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30px;
+}
